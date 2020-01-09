@@ -1,11 +1,11 @@
 import React from 'react';
 
-const About = ({match}) => {
+const Login = () => {
     return (
         <div>
-            {match.prams}sdf
+            로그인
         </div>
     );
 };
 
-export default About;
+export default Login;

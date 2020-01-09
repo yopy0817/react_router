@@ -1,0 +1,24 @@
+.header {
+    background-color: cadetblue;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.item { /* 정렬해줘요 */
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: table-cell;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.item:hover {
+    background-color: cornflowerblue;
+}
+
+.item:active, .item.active  { 
+    color: aqua;
+    background-color: cornflowerblue;
+}
